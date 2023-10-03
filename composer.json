@@ -1,5 +1,5 @@
 {
-    "name": "fleetbase/storefront-api",
+    "name": "fastlane/storefront-api",
     "version": "1.1.2",
     "description": "Headless Commerce API for Storefront Fleetbase Extension.",
     "keywords": [
@@ -20,10 +20,20 @@
             "email": "ron@fleetbase.io"
         }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/atomizedev/core-api"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/atomizedev/fleetops-api"
+        }
+    ],
     "require": {
         "php": "^7.4|^8.0",
-        "fleetbase/core-api": "^1.2.6",
-        "fleetbase/fleetops-api": "^1.1.4",
+        "atomizedev/core-api": "dev-main",
+        "atomizedev/fleetops-api": "dev-main",
         "geocoder-php/google-maps-places-provider": "^1.4",
         "laravel-notification-channels/apn": "^3.8",
         "laravel-notification-channels/fcm": "^2.7",
