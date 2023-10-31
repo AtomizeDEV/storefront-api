@@ -41,7 +41,7 @@ class StorefrontNetworkInvite extends Mailable
     {
         return $this
             ->subject('You have been invited to join ' . $this->invite->subject->name . '!')
-            ->from('hello@fleetbase.io', $this->invite->subject->name)
+            ->from('hello@fastlane.ee', $this->invite->subject->name)
             ->to($this->invite->recipients ?? [])
             ->markdown('emails.storefront-network-invite');
     }
