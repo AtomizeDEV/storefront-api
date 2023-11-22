@@ -27,7 +27,7 @@
         },
         {
             "type": "git",
-            "url": "https://github.com/atomizedev/fleetops-api"
+            "url": "https://github.com/atomizedev/fleetops"
         }
     ],
     "require": {
